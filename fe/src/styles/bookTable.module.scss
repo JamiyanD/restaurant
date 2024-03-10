@@ -1,0 +1,402 @@
+.addButton {
+    width: 25%;
+    height: 96%;
+    top: 1px;
+    right: 28px;
+}
+
+.subtractButton {
+    width: 25%;
+    height: 96%;
+    top: 1px;
+    right: 1px;
+}
+
+.subtractButton:hover~.addButton {
+    background-color: pink !important;
+}
+
+/**/
+
+.smallTableButton {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    position: absolute;
+}
+
+/**/
+@media (max-width: 2000px) {
+    .room {
+        height: 600px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .room {
+        height: 500px;
+    }
+
+    .stage,
+    .bar,
+    .gate {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .room {
+        height: 400px;
+    }
+
+    .stage,
+    .bar,
+    .gate {
+        font-size: 10px;
+    }
+}
+
+.room {
+    width: 100%;
+    max-width: 600px;
+    border: 1px rgba(209, 213, 219, var(--tw-bg-opacity)) solid;
+    position: relative;
+    max-height: 600px;
+    min-width: 380px;
+}
+
+.stage {
+    width: 40%;
+    height: 15%;
+    border: 1px solid rgba(209, 213, 219, var(--tw-bg-opacity));
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px 20px 0 0;
+}
+
+.stageInner {
+    width: 80%;
+    height: 70%;
+    background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gate {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    border: 1px solid rgba(209, 213, 219, var(--tw-bg-opacity));
+    border-radius: 5px;
+    width: 10%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+
+.smallTable {
+    width: 7%;
+    height: 0;
+    background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+    position: absolute;
+    padding-bottom: 7%;
+}
+
+.table1 {
+    left: 20%;
+    top: 21%;
+}
+
+.table2 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 21%;
+}
+
+.table3 {
+    right: 20%;
+    top: 21%;
+}
+
+.table4 {
+    left: 5%;
+    top: 33%;
+}
+
+.table5 {
+    right: 5%;
+    top: 33%;
+}
+
+.table10 {
+    left: 5%;
+    bottom: 20%;
+}
+
+.table11 {
+    right: 5%;
+    bottom: 20%;
+}
+
+.table6 {
+    top: 40%;
+    left: 30%;
+}
+
+.table7 {
+    top: 40%;
+    right: 30%;
+}
+
+.table8 {
+    bottom: 40%;
+    left: 13%;
+}
+
+.table9 {
+    bottom: 40%;
+    right: 13%;
+}
+
+.table12 {
+    bottom: 25%;
+    left: 35%;
+}
+
+.table13 {
+    bottom: 25%;
+    right: 35%;
+}
+
+.small {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
+    position: absolute;
+}
+
+.smallChair1 {
+    transform: translateX(-50%);
+    left: 50%;
+    top: -50%;
+    border-top: 3px rgb(255, 145, 0) solid;
+}
+
+.smallChair2 {
+    top: 25%;
+    right: -50%;
+    border-right: 3px rgb(255, 145, 0) solid;
+}
+
+.smallChair3 {
+    transform: translateX(-50%);
+    right: 0%;
+    bottom: -50%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+}
+
+.smallChair4 {
+    bottom: 25%;
+    left: -50%;
+    border-left: 3px rgb(255, 145, 0) solid;
+}
+
+.middleTable {
+    width: 11%;
+    height: 0;
+    background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+    position: absolute;
+    padding-bottom: 7%;
+}
+
+.middle {
+    width: 32%;
+    height: 50%;
+    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
+    position: absolute;
+}
+
+.middleChair1 {
+    left: 13%;
+    top: -50%;
+    border-top: 3px rgb(255, 145, 0) solid;
+}
+
+.middleChair2 {
+    right: 13%;
+    top: -50%;
+    border-top: 3px rgb(255, 145, 0) solid;
+}
+
+.middleChair3 {
+    top: 25%;
+    right: -32%;
+    border-right: 3px rgb(255, 145, 0) solid;
+}
+
+.middleChair4 {
+    right: 13%;
+    bottom: -50%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+}
+
+.middleChair5 {
+    left: 13%;
+    bottom: -50%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+}
+
+.middleChair6 {
+    bottom: 25%;
+    left: -32%;
+    border-left: 3px rgb(255, 145, 0) solid;
+}
+
+.bigTable {
+    width: 7%;
+    height: 0;
+    background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+    position: absolute;
+    padding-bottom: 15%;
+}
+
+.big {
+    width: 50%;
+    height: 25%;
+    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
+    position: absolute;
+}
+
+.bigChair1 {
+    transform: translateX(-50%);
+    left: 50%;
+    top: -25%;
+    border-top: 3px rgb(255, 145, 0) solid;
+}
+
+.bigChair2 {
+    top: 7.5%;
+    right: -50%;
+    border-right: 3px rgb(255, 145, 0) solid;
+}
+
+.bigChair3 {
+    top: 38%;
+    right: -50%;
+    border-right: 3px rgb(255, 145, 0) solid;
+}
+
+.bigChair4 {
+    bottom: 7.5%;
+    right: -50%;
+    border-right: 3px rgb(255, 145, 0) solid;
+}
+
+.bigChair5 {
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -25%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+}
+
+.bigChair6 {
+    bottom: 7.5%;
+    left: -50%;
+    border-left: 3px rgb(255, 145, 0) solid;
+}
+
+.bigChair7 {
+    top: 38%;
+    left: -50%;
+    border-left: 3px rgb(255, 145, 0) solid;
+}
+
+.bigChair8 {
+    top: 7.5%;
+    left: -50%;
+    border-left: 3px rgb(255, 145, 0) solid;
+}
+
+.bar {
+    width: 50%;
+    height: 10%;
+    border: 1px solid rgba(209, 213, 219, var(--tw-bg-opacity));
+    position: absolute;
+    top: 0px;
+    left: 0%;
+
+    border-radius: 0 0 50% 50%;
+}
+
+.barInner {
+    width: 90%;
+    height: 70%;
+    background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0 0 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barChair {
+    width: 7%;
+    height: 35%;
+    background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
+    position: absolute;
+}
+
+.barChair1 {
+    bottom: -17%;
+    left: 7%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+    transform: rotate(14deg);
+}
+
+.barChair2 {
+    bottom: -28%;
+    left: 20%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+    transform: rotate(8deg);
+}
+
+.barChair3 {
+    bottom: -35%;
+    left: 35%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+    transform: rotate(2deg);
+}
+
+.barChair4 {
+    bottom: -37%;
+    left: 50%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+    transform: rotate(-1deg);
+}
+
+.barChair5 {
+    bottom: -34%;
+    left: 65%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+    transform: rotate(-5deg);
+}
+
+.barChair6 {
+    bottom: -24%;
+    left: 80%;
+    border-bottom: 3px rgb(255, 145, 0) solid;
+    transform: rotate(-9deg);
+}

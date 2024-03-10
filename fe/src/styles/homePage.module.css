@@ -1,0 +1,27 @@
+.backgroundContainer {
+  color: white;
+  display: flex;
+  justify-content: space-around; 
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  font-size: 5em;
+  font-style: italic;
+  align-items: center;
+}
+
+.bg1:hover  {
+text-decoration: underline;
+}
+
+.bg2:hover  {
+  text-decoration: underline;
+  }
+
+.bg3:hover  {
+    text-decoration: underline;
+    }
+
+
+
